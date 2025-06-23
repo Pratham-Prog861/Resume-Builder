@@ -124,3 +124,16 @@
 .dark .text-shadow-strong {
   text-shadow: 0 2px 16px #000, 0 0px 2px #fff2;
 }
+
+.bg-grid-pattern {
+  background-image: radial-gradient(#2563eb 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.animate-fade-in {
+  animation: fadeIn 1.2s cubic-bezier(0.4,0,0.2,1);
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(32px); }
+  to { opacity: 1; transform: none; }
+}

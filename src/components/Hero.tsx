@@ -71,12 +71,6 @@ const Hero = () => {
           </motion.div>
         </div>
       </div>
-      <style jsx>{`
-        .bg-grid-pattern {
-          background-image: radial-gradient(#2563eb 1px, transparent 1px);
-          background-size: 20px 20px;
-        }
-      `}</style>
     </section>
   );
 };

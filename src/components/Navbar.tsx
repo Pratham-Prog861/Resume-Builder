@@ -1,4 +1,5 @@
 "use client"
+import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { FaSun, FaMoon } from "react-icons/fa";
 
@@ -39,7 +40,7 @@ const Navbar = () => {
   return (
     <nav className="sticky top-0 z-50 flex justify-between items-center px-8 py-4 bg-white/80 dark:bg-gray-900/80 shadow-sm dark:shadow-lg backdrop-blur border-b border-gray-200 dark:border-gray-800 transition-all">
       <h1 className="text-2xl font-extrabold tracking-tight text-gray-800 dark:text-gray-100 drop-shadow-sm select-none">
-        Modular<span className="text-blue-600 dark:text-yellow-400">Resume</span>
+        <Link href="/">Modular<span className="text-blue-600 dark:text-yellow-400">Resume</span></Link>
       </h1>
       <div className="space-x-2 flex items-center">
         <a
