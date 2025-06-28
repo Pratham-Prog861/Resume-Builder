@@ -43,7 +43,7 @@ const Hero = () => {
               </li>
             </ul>
             <motion.a
-              href="#get-started"
+              href="/get-started"
               className="inline-block bg-gradient-to-r from-blue-600 to-blue-700 dark:from-yellow-500 dark:to-yellow-600 text-white px-7 py-3 rounded-xl text-lg font-bold shadow-xl hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-200 border-2 border-transparent hover:border-blue-700 dark:hover:border-yellow-500 focus:outline-none focus:ring-2 focus:ring-blue-400 dark:focus:ring-yellow-400 animate-pulse"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
